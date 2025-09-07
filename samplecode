@@ -1,0 +1,98 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyMaD9ydONGtTU3MdbzkI9Kn",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/rkprabhu72/GitHubMiniLesson/blob/main/samplecode\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "ESdGY2JHHkqk",
+        "outputId": "a3b17b16-d921-43f6-862b-3a92b5d55cad"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Hello *** Python today is *** great'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ],
+      "source": [
+        "text = \"Hello , Python today is , great\"\n",
+        "text.lower()\n",
+        "text.upper()\n",
+        "text.split()\n",
+        "output = text.split(',')\n",
+        "\"***\".join(output)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numbers =[3, 45, 67,-10]\n",
+        "numbers [: :2]\n",
+        "\n",
+        "prabhu = ( 4, numbers, 10)\n",
+        "\n",
+        "numbers[2] = -20\n",
+        "prabhu"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UtC-XrdxLRGO",
+        "outputId": "c25bbfe3-03e8-4a3e-b4ac-3e2d066e7bf3"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "(4, [3, 45, -20, -10], 10)"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    }
+  ]
+}
